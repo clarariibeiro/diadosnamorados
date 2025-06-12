@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>E depois disso...</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #fbd5db, #e04f5f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      color: white;
+      text-shadow: 1px 1px 3px #00000050;
+    }
+
+    .timeline {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .photo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .photo img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50% 50% 0 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      border: 4px solid white;
+    }
+
+    .date-label {
+      margin-top: -5px;
+      background: white;
+      padding: 8px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1.1em;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    }
+
+    .btn {
+      margin-top: 40px;
+      background-color: #e04f5f;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #c43f4d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>E depois disso...</h1>
+    <div class="timeline">
+      <div class="photo">
+        <img src="img/image.png" alt="30.01">
+        <div class="date-label">30.01</div>
+      </div>
+      <div class="photo">
+        <img src="img/image copy.png" alt="15.03">
+        <div class="date-label">15.03</div>
+      </div>
+      <div class="photo">
+        <img src="img/image copy 2.png" alt="25.04">
+        <div class="date-label">25.04</div>
+      </div>
+    </div>
+    <div class="button-container">
+        <a href="musicas.html"><button
+        class="btn">PRÓXIMA PÁGINA</button></a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Como começou?</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 1000px;
+      width: 90%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .photo {
+      flex: 1;
+    }
+
+    .photo img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .text {
+      flex: 1.2;
+    }
+
+    .text h1 {
+      font-size: 2em;
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    .text p {
+      font-size: 1.05em;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .btn {
+      margin-top: 30px;
+      background-color: #e04f5f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #c43f4d;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .photo img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="photo">
+      <img src="img/2.png" alt="Free Fire - Início">
+    </div>
+    <div class="text">
+      <h1>Como começou?</h1>
+      <p>
+        E quem diria que tudo isso começaria na base do Free Fire, quem diria que eu ia achar alguém exatamente igual eu? Infelizmente tenho que agradecer o Kaua por ter pegado seu celular e reagido meus storys, infelizmente também tenho que agradecer as minhas amigas e o João Matheus por terem incentivado nós a ficarmos juntos. Pensar que tudo isso começou em Agosto, com o seu amigo mostrando uma foto minha pra você, e depois eu recebo uma notificação: @anthony__snts pediu para te seguir.
+      </p>
+        
+        <div class="button-container">
+        <a href="continuacao.html"><button
+        class="btn">PRÓXIMA PÁGINA</button></a>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

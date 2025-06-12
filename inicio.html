@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Anthony + Clara</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffffff, #e96b7d);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #fff0f4;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 800px;
+      width: 90%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .text {
+      flex: 1;
+    }
+
+    .text h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #3c0d0d;
+    }
+
+    .text p {
+      font-size: 1.1em;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .text small {
+      display: block;
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .btn {
+      background-color: #e04f5f;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #c43f4d;
+    }
+
+    .photo {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .photo img {
+      width: 100%;
+      max-width: 300px;
+      clip-path: path("M150 0 
+        C 75 0, 0 75, 0 150 
+        C 0 225, 150 300, 150 300 
+        C 150 300, 300 225, 300 150 
+        C 300 75, 225 0, 150 0 Z");
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .photo img {
+        clip-path: none;
+        border-radius: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text">
+      <small>Com amor, Clara.</small>
+      <h1>Anthony + Clara</h1>
+      <p>Oi, meu amor! Tudo bem? Eu espero que você goste dessa surpresa que eu fiz. Não é muito, mas é de coração, quero demonstrar pelo menos um pouco do tanto que eu te amo. Feliz dia dos namorados!</p>
+    </div>
+    <div class="photo">
+        <img src="img/1.jpeg">
+    </div>
+    <div class="button-container">
+        <a href="comeco.html"><button
+        class="btn">PRÓXIMA PÁGINA</button></a>
+    </div>
+  </div>
+</body>
+</html>
